@@ -7,7 +7,6 @@ This project is a **Proof-of-Concept (PoC)** Question-Answering system that allo
 
 The client faces a major productivity issue: employees waste significant time manually searching through product specs, HR policies, and internal reports. The client wants to evaluate if modern AI can be used to **automatically answer internal questions based only on specific documents**, before scaling into a full solution.
 
----
 
 ## 💡 Proposed Solution & Rationale
 
