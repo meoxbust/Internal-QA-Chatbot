@@ -12,13 +12,13 @@ The client faces a major productivity issue: employees waste significant time ma
 
 We propose a document-based Q&A system built using **LangChain**, **Hybrid Retrieval (Keyword + Semantic)**, and **Azure OpenAI (GPT-4o)** for answer generation.
 
-# Key Components
+### Key Components
 
 - **Document Loader**  
   Loads `.txt` files from a directory and splits them into chunks using LangChain's `RecursiveCharacterTextSplitter`.
 - **Hybrid Retriever - Proposed Solution & Rationale**
 I implemented a Hybrid Retrieval-Augmented Generation (RAG) system that combines sparse retrieval (BM25 keyword search) with dense retrieval (semantic search using HuggingFace embeddings + FAISS).
-# Why Hybrid RAG?
+### Why Hybrid RAG?
 Hybrid RAG leverages the strengths of both sparse and dense retrieval to build a more accurate and adaptable Q&A system:
 
 | Retrieval Type | Strengths | Weaknesses |
@@ -42,18 +42,18 @@ This approach ensures:
 
 ## 🛠 Setup Instructions
 
-# 1. Clone Repository
+### 1. Clone Repository
 ```bash
 git clone https://github.com/meoxbust/Internal-QA-Chatbot.git
 cd Internal-QA-Chatbot
 ```
-# 2. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# 3 Environment Variables
+### 3 Environment Variables
 Create a .env file and add your Azure OpenAI credentials:
 
 ```bash
@@ -62,7 +62,7 @@ AZURE_OPENAI_ENDPOINT=https://your-resource-name.openai.azure.com/
 AZURE_OPENAI_API_VERSION=version
 ```
 
-# 4 Prepare Documents 
+### 4 Prepare Documents 
 Place your .txt files in folder, e.g.:
 ```
 project/
@@ -71,7 +71,7 @@ project/
 |    ├── file1.txt
 |    ├── file2.txt
 ```
-# 5 Run the App
+### 5 Run the App
 ``` bash
 streamlit run app.py
 ```
