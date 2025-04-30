@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ```
 
 ### 3 Environment Variables
-Create a .env file and add your Azure OpenAI credentials:
+Create a `.env` file and add your Azure OpenAI credentials:
 
 ```bash
 AZURE_OPENAI_API_KEY=your_key
@@ -63,7 +63,7 @@ AZURE_OPENAI_API_VERSION=version
 ```
 
 ### 4 Prepare Documents 
-Place your .txt files in folder, e.g.:
+Place your `.txt` files in folder, e.g.:
 ```
 project/
 |
