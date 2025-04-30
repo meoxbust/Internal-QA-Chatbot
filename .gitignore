@@ -1,0 +1,6 @@
+.env
+documents/
+Artiv - Technical_Task (CONFIDENTIAL)/
+__pycache__/
+*.pyc
+.gỉtignore

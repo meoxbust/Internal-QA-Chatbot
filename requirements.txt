@@ -1,0 +1,9 @@
+langchain
+Faiss-cpu
+langchain-community
+langchain_core
+langchain_openai
+sentence-transformers
+rank_bm25
+python-dotenv
+openai
