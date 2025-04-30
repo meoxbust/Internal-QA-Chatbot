@@ -44,8 +44,8 @@ This approach ensures:
 
 # 1. Clone Repository
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/meoxbust/Internal-QA-Chatbot.git
+cd Internal-QA-Chatbot
 ```
 # 2. Install Dependencies
 
