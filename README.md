@@ -1,4 +1,4 @@
-### Internal Document Q&A System – PoC
+# Internal Document Q&A System – PoC
 
 This project is a **Proof-of-Concept (PoC)** Question-Answering system that allows users to ask natural language questions and receive grounded answers extracted from a curated set of internal company documents.
 
